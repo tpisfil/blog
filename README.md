@@ -4,6 +4,6 @@ Hello! This is my blog project that I have created with the help of a Udemy cour
 I am using React JS and Tailwind CSS for this project 
 Enjoy!
 
-Thomas Pisfil
+I am also using this project to test a lot of the Git & Github functionality
 
-testing testing 123
+Thomas Pisfil
