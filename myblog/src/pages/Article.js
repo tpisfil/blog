@@ -21,10 +21,13 @@ const Article = ({match}) => {
 
     useEffect(() => {
         const fetchData = async () => { //useEffect cannot use an async function so we have to create one inside of it
-            const result = await fetch(`http://localhost:8000/api/articles/${name}`);
+            const result = await fetch(`/api/articles/${name}`); //we added proxy in the package.json file which allows us access to this
             //await will make sure we wait to fetch the info from the server and then move on with the rest of the code
             const body = await result.json();
+            console.log("this is the body we get ");
             console.log(body);
+            console.log("blah balh blha ");
+
             setArticleInfo(body); 
         };
         fetchData(); //now we're calling the function that we just defined up there ^ 
