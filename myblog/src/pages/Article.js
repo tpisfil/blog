@@ -4,6 +4,13 @@ import Articles from '../components/Articles';
 import NotFound from './NotFound';
 
 const Article = ({match}) => {
+
+    fetch('/api/articles/...' {
+        method : 'POST' //default value is GET if it is not specified 
+        body : 
+    })
+
+
     const name = match.params.name;
     const article = articleContent.find( article => article.name === name );
     // const article = articleContent.find( articlehello => articlehello.name === name );

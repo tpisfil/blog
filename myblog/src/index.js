@@ -1,3 +1,4 @@
+import 'whatwg-fetch'; //this is used for internet explorer 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
